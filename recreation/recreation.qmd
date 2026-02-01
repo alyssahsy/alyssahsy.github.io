@@ -9,7 +9,7 @@ format:
 <div class="intro">
 In my spare time, I enjoy reading, watching movies, TV series and musicals. I am always happy to chat about these stuffs I've chewed on recently, or restaurants/recipe recommendations.
 <br>
-(I will try to update this page regularly :))
+I will try to update this page regularly :)
 </div>
 
 <div class="year-direct">
