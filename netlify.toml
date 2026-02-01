@@ -1,5 +1,12 @@
 [build]
   publish = "docs"
+  command = "hugo --gc --minify -d docs"
+
+[build.environment]
+  HUGO_VERSION = "0.128.0"
+
+[context.production.environment]
+  HUGO_ENV = "production"
 
 [[redirects]]
   from = "/*"
