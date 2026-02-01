@@ -6,7 +6,6 @@ website:
   page-navigation: true
   title: "Alyssa Han"
   site-url: https://alyssahsy.github.io
-  favicon: misc/info/favicon.png
   repo-url: https://github.com/alyssahsy/alyssahsy.github.io
   repo-actions: [edit, issue]
   
