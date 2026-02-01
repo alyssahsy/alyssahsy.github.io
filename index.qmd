@@ -23,5 +23,5 @@ I am a PhD candidate in the management field. My current research focus on user 
 
 I am learning using [Quarto](https://quarto.org/) to build this website and write academic and personal blogs (content may be imcomplete or contain errors).
 
-I enjoy reading and watching movies in my spare time.
+I enjoy reading and watching movies in my spare time :)
 :::
