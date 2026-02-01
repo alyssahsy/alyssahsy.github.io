@@ -4,42 +4,32 @@ project:
   
 website:
   page-navigation: true
-  title: "Hello, I'm Chi"
-  site-url: https://chizapoth.github.io
+  title: "Alyssa Han"
+  site-url: https://alyssahsy.github.io
   favicon: misc/info/favicon.png
-  repo-url: https://github.com/chizapoth/chizapoth.github.io
+  repo-url: https://github.com/alyssahsy/alyssahsy.github.io
   repo-actions: [edit, issue]
   
   page-footer: 
-    left: "&copy; Copyright 2024, Chi Zhang"
+    left: "&copy; Copyright 2026, Alyssa Han"
     right: 
       - icon: github
-        href: https://github.com/chizapoth/chizapoth.github.io
+        href: https://github.com/alyssahsy/alyssahsy.github.io
 
   navbar: 
     background: "#A9CCE3"
     search: true
     right: 
-      - text: "Projects"
-        href: projects/projects.qmd
       
-      - text: "Teaching"
-        href: teaching/teaching.qmd
-        
-      - text: "R packages"
-        href: rpkg/rpkg.qmd
-           
-      - text: "Talks"
-        href: talks/talks.qmd
-
-      - text: "Blog/notes"
+      - text: "Blog"
         href: blog/blog.qmd
         
-      - text: "About me"
-        href: about_me.qmd
+      - text: "Recreation"
+        href: recreation/recreation.qmd
+
+      # - text: "About me"
+      #   href: about_me.qmd
         
-      #- text: "CV"
-      #  href: misc/info/CV-CZ-2407.pdf
 
 
 format:

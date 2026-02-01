@@ -1,0 +1,20 @@
+---
+title: "My Brilliant Friend"
+description: |
+  Reading notes on some of the chapters. Book on Amazon: [link](https://www.amazon.com/My-Brilliant-Friend-Neapolitan-Novels/dp/1609450787) 
+author: "Alyssa Han"
+date: "2026-02-01"
+categories: [Notes]
+sidebar: false
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    code-tools: false
+---
+
+
+## Notes from the book
+
+content to be added

@@ -1,0 +1,140 @@
+/* 整体页面样式 */
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* 介绍段落 */
+.intro {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2em;
+  line-height: 1.7;
+}
+
+/* 标题样式 */
+h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.section-title {
+  color: #c75b7a;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+/* 当年直接展示（不下拉） */
+.year-direct {
+  margin-top: 1.5em;
+}
+
+.year-direct .year-title {
+  color: #c75b7a;
+  font-size: 1.5rem;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.year-direct .year-content {
+  padding: 0;
+}
+
+.year-direct .year-content p {
+  margin-bottom: 0.8em;
+  text-indent: 2em;
+}
+
+/* 年份下拉区域 */
+.year-dropdowns {
+  margin-top: 1.5em;
+}
+
+.year-section {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 0.75em;
+  overflow: hidden;
+}
+
+.year-section summary.year-title {
+  color: #c75b7a;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding: 0.6em 1em;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  background: #fafafa;
+}
+
+.year-section summary.year-title::-webkit-details-marker {
+  display: none;
+}
+
+.year-section summary.year-title::before {
+  content: "▸ ";
+  display: inline-block;
+  transition: transform 0.2s ease;
+  margin-right: 0.3em;
+}
+
+.year-section[open] summary.year-title::before {
+  transform: rotate(90deg);
+}
+
+.year-section summary.year-title:hover {
+  background: #f0f0f0;
+}
+
+.year-content {
+  padding: 0.8em 1em 1em 1.5em;
+  border-top: 1px solid #e0e0e0;
+}
+
+.year-content p {
+  margin-bottom: 0.8em;
+  text-indent: 2em;
+}
+
+.year-empty {
+  color: #999;
+  font-style: italic;
+}
+
+/* 书籍条目 */
+p {
+  margin-bottom: 0.8em;
+  text-indent: 2em;
+}
+
+/* 链接样式 */
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 咖啡店名称样式 */
+.venue {
+  color: #666;
+  font-style: italic;
+  font-size: 0.95rem;
+  display: block;
+  margin-left: 2em;
+  margin-top: -0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* 日期和粗体文本 */
+strong {
+  font-weight: 600;
+}

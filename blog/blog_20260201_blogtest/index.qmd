@@ -1,0 +1,19 @@
+---
+title: "why quarto is better than blogdown"
+author: "Alyssa Han"
+description: |
+  why quarto is better than blogdown
+date: "2026-02-01"
+categories: [Quarto, Website]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+---
+
+## why quarto is better than blogdown
+
+content to be added

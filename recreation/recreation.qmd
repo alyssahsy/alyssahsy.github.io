@@ -1,0 +1,34 @@
+---
+title: "Recreation"
+format:
+  html:
+    css: custom.css
+    toc: false
+---
+
+<div class="intro">
+In my spare time, I enjoy reading, watching movies, TV series and musicals. I am always happy to chat about these stuffs I've chewed on recently, or restaurants/recipe recommendations.
+<br>
+(I will try to update this page regularly :))
+</div>
+
+<div class="year-direct">
+<span class="year-title">2026</span>
+<div class="year-content">
+<p><strong>2026/02</strong> - I am rereading [My Brilliant Friend](https://en.wikipedia.org/wiki/My_Brilliant_Friend) by Elena Ferrante (Chinese translation by Ying Chen).</p>
+<p><strong>2026/02</strong> - I am watching [Slow Horses](https://www.imdb.com/title/tt5875444/) (Apple Original Series).</p>
+<p><strong>2026/01</strong> - I watched [Stranger Things](https://www.imdb.com/title/tt4574334/) (Netflix TV series) all 5 seasons! really enjoyed it!</p>
+</div>
+</div>
+
+<div class="year-dropdowns">
+
+<details class="year-section">
+<summary class="year-title">2025</summary>
+<div class="year-content">
+<p class="year-empty">（no record）</p>
+</div>
+</details>
+
+
+</div>
