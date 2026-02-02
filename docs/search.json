@@ -116,7 +116,7 @@
     "href": "index.html",
     "title": "Alyssa Han",
     "section": "",
-    "text": "syhanofficial@gmail.com\n  \n  \n    \n     alyssahsy\n  \n\n  \n  \nHello!\nI am a PhD candidate in the management field. My current research focus on user behavior and social interactions in online health platforms.\nI am learning using Quarto to build this website and write academic and personal blogs (content may be imcomplete or contain errors).\nI enjoy reading and watching movies in my spare time :)"
+    "text": "syhanofficial@gmail.com\n  \n  \n    \n     alyssahsy\n  \n\n  \n  \nHello!\nI am a PhD candidate majoring in Management Science and Engineering. My current research focus on user behavior and social interactions in online health platforms.\nI am learning using Quarto to build this website and write academic and personal blogs (content may be incomplete or contain errors).\nI enjoy reading and watching movies in my spare time :)"
   },
   {
     "objectID": "blog/blog_20230103_blogdown2quarto/index.html",
@@ -1398,5 +1398,19 @@
     "title": "Notes: errors in building this website",
     "section": "",
     "text": "content to be added"
+  },
+  {
+    "objectID": "blog/technotes_20260201_qt_chinese/index.html",
+    "href": "blog/technotes_20260201_qt_chinese/index.html",
+    "title": "How to use Quarto to write documents in Chinese",
+    "section": "",
+    "text": "---\ntitle: \"中文PDF文档\"\nauthor: \"作者姓名\"\nformat: html\n---\n\n\n\n---\ntitle: \"中文PDF文档\"\nauthor: \"作者姓名\"\nformat: pdf\ndocumentclass: article\nheader-includes:\n  - \\usepackage[UTF8]{ctex}\npdf-engine: xelatex\ngeometry:\n  - left=2.5cm\n  - right=2.5cm\n  - top=2.5cm\n  - bottom=2.5cm\n---"
+  },
+  {
+    "objectID": "blog/technotes_20260201_qt_chinese/index.html#here-are-two-tips-for-using-quarto-to-write-documents-in-chinese-and-english",
+    "href": "blog/technotes_20260201_qt_chinese/index.html#here-are-two-tips-for-using-quarto-to-write-documents-in-chinese-and-english",
+    "title": "How to use Quarto to write documents in Chinese",
+    "section": "",
+    "text": "---\ntitle: \"中文PDF文档\"\nauthor: \"作者姓名\"\nformat: html\n---\n\n\n\n---\ntitle: \"中文PDF文档\"\nauthor: \"作者姓名\"\nformat: pdf\ndocumentclass: article\nheader-includes:\n  - \\usepackage[UTF8]{ctex}\npdf-engine: xelatex\ngeometry:\n  - left=2.5cm\n  - right=2.5cm\n  - top=2.5cm\n  - bottom=2.5cm\n---"
   }
 ]

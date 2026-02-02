@@ -1,0 +1,45 @@
+---
+title: "How to use Quarto to write documents in Chinese"
+description: |
+  Quarto allows you to write documents in both Chinese and English. But you need to specify the language of the document in the YAML frontmatter.
+author: "Alyssa Han"
+date: "2026-02-01"
+categories: [Quarto]
+sidebar: false
+code-block-bg: true
+code-block-border-left: true
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+---
+
+## Here are two tips for using Quarto to write documents in Chinese and English
+
+### 1. Use .html files for Chinese documents, then export to PDF
+```yaml
+---
+title: "中文PDF文档"
+author: "作者姓名"
+format: html
+---
+```
+### 2. specify and include Chinese packages in the YAML frontmatter (with additional formatting options)
+```yaml
+---
+title: "中文PDF文档"
+author: "作者姓名"
+format: pdf
+documentclass: article
+header-includes:
+  - \usepackage[UTF8]{ctex}
+pdf-engine: xelatex
+geometry:
+  - left=2.5cm
+  - right=2.5cm
+  - top=2.5cm
+  - bottom=2.5cm
+---
+```

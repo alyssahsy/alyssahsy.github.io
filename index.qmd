@@ -19,9 +19,9 @@ about:
 
 Hello! 
 
-I am a PhD candidate in the management field. My current research focus on user behavior and social interactions in online health platforms. 
+I am a PhD candidate majoring in Management Science and Engineering. My current research focus on user behavior and social interactions in online health platforms. 
 
-I am learning using [Quarto](https://quarto.org/) to build this website and write academic and personal blogs (content may be imcomplete or contain errors).
+I am learning using [Quarto](https://quarto.org/) to build this website and write academic and personal blogs (content may be incomplete or contain errors).
 
 I enjoy reading and watching movies in my spare time :)
 :::
