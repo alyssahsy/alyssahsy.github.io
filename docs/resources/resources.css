@@ -1,0 +1,260 @@
+/* 整体页面样式 */
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.6;
+  color: #333;
+  font-size: 16px;  /* 明确基础字体大小 */
+}
+
+/* 介绍段落 */
+.intro {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2em;
+  line-height: 1.7;
+}
+
+/* 标题样式层级 */
+h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 1.75rem;  /* 28px - 主标题 */
+  font-weight: 600;
+}
+
+h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  font-size: 1.25rem;  /* 20px - 子标题 */
+  font-weight: 600;
+  color: #444;
+}
+
+.section-title {
+  color: #c75b7a;
+  font-weight: normal;
+  font-size: 1.75rem;  /* 与h2保持一致 */
+}
+
+/* 第一个标题不需要上边距 */
+h2:first-of-type {
+  margin-top: 1.5em;
+}
+
+/* ========== 下拉框样式 ========== */
+
+
+/* 子下拉框容器 */
+.subsection-dropdown {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  margin-bottom: 0.8em;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+/* 子下拉框标题 */
+.subsection-dropdown summary.subsection-title {
+  color: #555;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.7em 1.2em;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  background: #fafafa;
+  transition: background-color 0.2s;
+}
+
+/* 子下拉框自定义箭头 */
+.subsection-dropdown summary.subsection-title::before {
+  content: "▸";
+  display: inline-block;
+  transition: transform 0.2s ease;
+  margin-right: 0.5em;
+  color: #888;
+  font-size: 0.85em;
+}
+
+/* 子下拉框展开时旋转箭头 */
+.subsection-dropdown[open] summary.subsection-title::before {
+  transform: rotate(90deg);
+}
+
+/* 子下拉框鼠标悬停效果 */
+.subsection-dropdown summary.subsection-title:hover {
+  background: #f0f0f0;
+}
+
+/* 子下拉内容区域 */
+.subsection-content {
+  padding: 0.8em 1.2em 1em 1.2em;
+  border-top: 1px solid #e8e8e8;
+  background-color: white;
+}
+/* ========== 复制按钮样式 ========== */
+
+/* 可复制的容器 */
+.copyable {
+  position: relative;
+  padding-right: 60px; /* 为复制按钮留出空间 */
+}
+
+/* 复制按钮 */
+.copy-btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 6px 12px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  opacity: 0;
+  transition: opacity 0.2s, background-color 0.2s;
+  z-index: 10;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* 鼠标悬停在容器上时显示按钮 */
+.copyable:hover .copy-btn {
+  opacity: 1;
+}
+
+/* 复制按钮悬停效果 */
+.copy-btn:hover {
+  background-color: #2563eb;
+}
+
+/* 复制按钮激活效果 */
+.copy-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+/* 复制成功状态 */
+.copy-btn.copied {
+  background-color: #10b981;
+}
+
+/* 列表样式 */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+li {
+  margin-bottom: 0.6em;
+  padding-left: 1.5em;
+  position: relative;
+  font-size: 1rem;  /* 16px - 列表项 */
+}
+
+li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #999;
+}
+
+/* 链接样式 */
+a {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* 目录样式 */
+#TOC {
+  background-color: white;
+  padding: 20px;
+  border-left: 1px solid #e0e0e0;
+  font-size: 0.9rem;  /* 14.4px - 目录 */
+}
+
+#toc-title {
+  font-weight: 600;
+  margin-bottom: 1em;
+  color: #2c3e50;
+}
+
+.toc-actions {
+  margin-bottom: 1em;
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#TOC li {
+  margin-bottom: 0.5em;
+  padding-left: 0;
+}
+
+#TOC li:before {
+  content: none;
+}
+
+#TOC a {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+#TOC a:hover {
+  color: #3b82f6;
+}
+
+/* 激活的目录项 */
+#TOC .active {
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+  
+  #TOC {
+    display: none;
+  }
+  
+  h2 {
+    font-size: 1.5rem;  /* 移动端稍小 */
+  }
+  
+  h3 {
+    font-size: 1.15rem;  /* 移动端稍小 */
+  }
+  
+  .section-dropdown summary.section-title {
+    font-size: 1.5rem;
+    padding: 0.8em 1em;
+  }
+  
+  .section-content {
+    padding: 0.8em 1em;
+  }
+  
+  .subsection-dropdown summary.subsection-title {
+    font-size: 1rem;
+    padding: 0.6em 1em;
+  }
+  
+  .subsection-content {
+    padding: 0.6em 1em;
+  }
+}

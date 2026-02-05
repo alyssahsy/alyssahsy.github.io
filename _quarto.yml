@@ -26,6 +26,9 @@ website:
       - text: "Recreation"
         href: recreation/recreation.qmd
 
+      - text: "Resources"
+        href: resources/resources.qmd
+
       # - text: "About me"
       #   href: about_me.qmd
         

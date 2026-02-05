@@ -1412,5 +1412,215 @@
     "title": "How to use Quarto to write documents in Chinese",
     "section": "",
     "text": "---\ntitle: \"中文PDF文档\"\nauthor: \"作者姓名\"\nformat: html\n---\n\n\n\n---\ntitle: \"中文PDF文档\"\nauthor: \"作者姓名\"\nformat: pdf\ndocumentclass: article\nheader-includes:\n  - \\usepackage[UTF8]{ctex}\npdf-engine: xelatex\ngeometry:\n  - left=2.5cm\n  - right=2.5cm\n  - top=2.5cm\n  - bottom=2.5cm\n---"
+  },
+  {
+    "objectID": "resources/resources.html",
+    "href": "resources/resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "I list some useful websites and learning resources for academic research in management displine (IS or marketing focused). (Content will be updated regularly.)\n\n\nDatabase and Journal Websites\n\n\nDatabases\n\n\n\nWeb of Science\nEBSCO: Access to INFORMS, MIS Quarterly, AMJ, AMR article.\nSage: Access to Some TopMarketing Journals.\nSSRN\narXiv\nJSTOR\nSci-hub\nAblesci: 科研通\n\n\n\n\n\nJournal Homepages - Latest Articles\n\n\ncontent to be added\n\n\n\n\nSearch Keywords: by Publication Sources\n\n\nGeneral Top Journals\n\n\n\n\nClick to copy: General Top Journals (Nature, Science, PNAS, Nature Human Behavior, etc.) Copy to Clipboard\n\n\n\n\n\n\nUTD/FT Top Journals\n\n\n\n\nClick to copy: Full list of UTD-FT Top Journals Copy to Clipboard\n\n\n\n\n\n\nMarketing Top Journals\n\n\n\n\nClick to copy: UTD-FT Top Marketing Journals Copy to Clipboard\n\n\n\n\n\n\nIS Top Journals\n\n\n\n\nclick to copy: IS Top Journals (MISQ+ISR+JMIS+JAIS+MS) Copy to Clipboard\n\n\n\n\nclick to copy: ABS 3+ Journals in INFO MAN field Copy to Clipboard\n\n\n\n\n\n\nResources\n\n\nOnline Learning Resources\n\n\ncontent to be added"
+  },
+  {
+    "objectID": "resources/resources.html#经济学",
+    "href": "resources/resources.html#经济学",
+    "title": "Resources",
+    "section": "经济学",
+    "text": "经济学\n\nQuarterly Journal of Economics\nAmerican Economic Review\nJournal of Political Economy\nReview of Economic Studies\nEconometrica\nAmerican Economic Journal: Applied Economics\nAmerican Economic Journal: Economic Policy\nAmerican Economic Journal: Macroeconomics\nAmerican Economic Journal: Microeconomics\nAmerican Economic Review: Insights\nJournal of Political Economy Macroeconomics\nJournal of Political Economy Microeconomics\nEconomic Journal\nReview of Economics and Statistics"
+  },
+  {
+    "objectID": "resources/resources.html#正刊子刊",
+    "href": "resources/resources.html#正刊子刊",
+    "title": "Resources",
+    "section": "正刊子刊",
+    "text": "正刊子刊"
+  },
+  {
+    "objectID": "resources/resources.html#政治学",
+    "href": "resources/resources.html#政治学",
+    "title": "Resources",
+    "section": "政治学",
+    "text": "政治学"
+  },
+  {
+    "objectID": "resources/resources.html#社会学",
+    "href": "resources/resources.html#社会学",
+    "title": "Resources",
+    "section": "社会学",
+    "text": "社会学"
+  },
+  {
+    "objectID": "resources/resources.html#公共管理",
+    "href": "resources/resources.html#公共管理",
+    "title": "Resources",
+    "section": "公共管理",
+    "text": "公共管理"
+  },
+  {
+    "objectID": "resources/resources.html#区域和发展研究",
+    "href": "resources/resources.html#区域和发展研究",
+    "title": "Resources",
+    "section": "区域和发展研究",
+    "text": "区域和发展研究"
+  },
+  {
+    "objectID": "resources/resources.html#一些replication网站",
+    "href": "resources/resources.html#一些replication网站",
+    "title": "Resources",
+    "section": "一些Replication网站",
+    "text": "一些Replication网站"
+  },
+  {
+    "objectID": "resources/resources-dropdown.html",
+    "href": "resources/resources-dropdown.html",
+    "title": "Resources",
+    "section": "",
+    "text": "我宣布，APSR、AJPS已经不是政治学Top期刊了（Yau式发言）。追踪前沿政治科学研究，还是得看arxiv。——2025年3月14日。\n\n\n经济学\n\n\n\nQuarterly Journal of Economics\nAmerican Economic Review\nJournal of Political Economy\nReview of Economic Studies\nEconometrica\nAmerican Economic Journal: Applied Economics\nAmerican Economic Journal: Economic Policy\nAmerican Economic Journal: Macroeconomics\nAmerican Economic Journal: Microeconomics\nAmerican Economic Review: Insights\nJournal of Political Economy Macroeconomics\nJournal of Political Economy Microeconomics\nEconomic Journal\nReview of Economics and Statistics\n\n\n\n\n\n正刊子刊\n\n\n暂无内容\n\n\n\n\n政治学\n\n\n\nAmerican Political Science Review\nAmerican Journal of Political Science\n\n\n\n\n\n社会学\n\n\n暂无内容\n\n\n\n\n公共管理\n\n\n暂无内容\n\n\n\n\n区域和发展研究\n\n\n暂无内容\n\n\n\n\n一些Replication网站\n\n\n暂无内容"
+  },
+  {
+    "objectID": "resources/resources-with-toc.html",
+    "href": "resources/resources-with-toc.html",
+    "title": "Resources",
+    "section": "",
+    "text": "我宣布，APSR、AJPS已经不是政治学Top期刊了（Yau式发言）。追踪前沿政治科学研究，还是得看arxiv。——2025年3月14日。"
+  },
+  {
+    "objectID": "resources/resources-with-toc.html#经济学",
+    "href": "resources/resources-with-toc.html#经济学",
+    "title": "Resources",
+    "section": "经济学",
+    "text": "经济学\n\n\nTop 5期刊\n\n\n\nQuarterly Journal of Economics\nAmerican Economic Review\nJournal of Political Economy\nReview of Economic Studies\nEconometrica\n\n\n\n\n\nAEJ系列\n\n\n\nAmerican Economic Journal: Applied Economics\nAmerican Economic Journal: Economic Policy\nAmerican Economic Journal: Macroeconomics\nAmerican Economic Journal: Microeconomics\nAmerican Economic Review: Insights"
+  },
+  {
+    "objectID": "resources/resources-with-toc.html#正刊子刊",
+    "href": "resources/resources-with-toc.html#正刊子刊",
+    "title": "Resources",
+    "section": "正刊子刊",
+    "text": "正刊子刊\n暂无内容"
+  },
+  {
+    "objectID": "resources/resources-with-toc.html#政治学",
+    "href": "resources/resources-with-toc.html#政治学",
+    "title": "Resources",
+    "section": "政治学",
+    "text": "政治学\n\nAmerican Political Science Review\nAmerican Journal of Political Science"
+  },
+  {
+    "objectID": "resources/resources-with-toc.html#社会学",
+    "href": "resources/resources-with-toc.html#社会学",
+    "title": "Resources",
+    "section": "社会学",
+    "text": "社会学\n暂无内容"
+  },
+  {
+    "objectID": "resources/resources-with-toc.html#公共管理",
+    "href": "resources/resources-with-toc.html#公共管理",
+    "title": "Resources",
+    "section": "公共管理",
+    "text": "公共管理\n暂无内容"
+  },
+  {
+    "objectID": "resources/resources-with-toc.html#区域和发展研究",
+    "href": "resources/resources-with-toc.html#区域和发展研究",
+    "title": "Resources",
+    "section": "区域和发展研究",
+    "text": "区域和发展研究\n暂无内容"
+  },
+  {
+    "objectID": "resources/resources-with-toc.html#一些replication网站",
+    "href": "resources/resources-with-toc.html#一些replication网站",
+    "title": "Resources",
+    "section": "一些Replication网站",
+    "text": "一些Replication网站\n暂无内容"
+  },
+  {
+    "objectID": "resources/example-with-dropdown.html",
+    "href": "resources/example-with-dropdown.html",
+    "title": "Resources",
+    "section": "",
+    "text": "I list some useful websites and learning resources for academic research in management displine (IS or marketing focused)."
+  },
+  {
+    "objectID": "resources/example-with-dropdown.html#政治学",
+    "href": "resources/example-with-dropdown.html#政治学",
+    "title": "Resources",
+    "section": "政治学",
+    "text": "政治学\n\nAmerican Political Science Review\nAmerican Journal of Political Science"
+  },
+  {
+    "objectID": "resources/example-with-dropdown.html#社会学",
+    "href": "resources/example-with-dropdown.html#社会学",
+    "title": "Resources",
+    "section": "Resources",
+    "text": "Resources\n暂无内容"
+  },
+  {
+    "objectID": "resources/example-with-dropdown.html#使用方法说明",
+    "href": "resources/example-with-dropdown.html#使用方法说明",
+    "title": "Resources",
+    "section": "使用方法说明",
+    "text": "使用方法说明\n\n方式1：使用h2标题（会出现在目录中）\n直接用 ## 创建主标题，内容直接列在下面，不折叠。\n\n\n方式2：使用子下拉框\n在h2标题下使用 &lt;details&gt; 创建可折叠的子分类：\n&lt;details class=\"subsection-dropdown\" open&gt;\n&lt;summary class=\"subsection-title\"&gt;子分类名称&lt;/summary&gt;\n&lt;div class=\"subsection-content\"&gt;\n\n- 列表项1\n- 列表项2\n\n&lt;/div&gt;\n&lt;/details&gt;\n\n\n方式3：使用主下拉框（整个分类可折叠）\n&lt;details class=\"section-dropdown\" open&gt;\n&lt;summary class=\"section-title\"&gt;主分类名称&lt;/summary&gt;\n&lt;div class=\"section-content\"&gt;\n\n内容...\n\n&lt;/div&gt;\n&lt;/details&gt;"
+  },
+  {
+    "objectID": "resources/example-with-dropdown.html#search-keywords",
+    "href": "resources/example-with-dropdown.html#search-keywords",
+    "title": "Resources",
+    "section": "Search Keywords",
+    "text": "Search Keywords\n\nAmerican Political Science Review\nAmerican Journal of Political Science"
+  },
+  {
+    "objectID": "resources/example-with-dropdown.html#下拉框使用方法说明",
+    "href": "resources/example-with-dropdown.html#下拉框使用方法说明",
+    "title": "Resources",
+    "section": "下拉框使用方法说明",
+    "text": "下拉框使用方法说明\n\n方式1：使用h2标题（会出现在目录中）\n直接用 ## 创建主标题，内容直接列在下面，不折叠。\n\n\n方式2：使用子下拉框\n在h2标题下使用 &lt;details&gt; 创建可折叠的子分类：\n&lt;details class=\"subsection-dropdown\" open&gt;\n&lt;summary class=\"subsection-title\"&gt;子分类名称&lt;/summary&gt;\n&lt;div class=\"subsection-content\"&gt;\n\n- 列表项1\n- 列表项2\n\n&lt;/div&gt;\n&lt;/details&gt;\n\n\n方式3：使用主下拉框（整个分类可折叠）\n&lt;details class=\"section-dropdown\" open&gt;\n&lt;summary class=\"section-title\"&gt;主分类名称&lt;/summary&gt;\n&lt;div class=\"section-content\"&gt;\n\n内容...\n\n&lt;/div&gt;\n&lt;/details&gt;"
+  },
+  {
+    "objectID": "resources/example-with-dropdown-fixed.html",
+    "href": "resources/example-with-dropdown-fixed.html",
+    "title": "Resources",
+    "section": "",
+    "text": "I list some useful websites and learning resources for academic research in management displine (IS or marketing focused)."
+  },
+  {
+    "objectID": "resources/example-with-dropdown-fixed.html#使用说明",
+    "href": "resources/example-with-dropdown-fixed.html#使用说明",
+    "title": "Resources",
+    "section": "使用说明",
+    "text": "使用说明\n\n如何添加更多可复制的内容\n::: {.copyable}\n显示的文本内容\n&lt;button class=\"copy-btn\" onclick=\"copyToClipboard(this, '要复制到剪贴板的文本')\"&gt;复制&lt;/button&gt;\n:::\n注意事项： 1. 鼠标移到文本上时会显示”复制”按钮 2. 点击后会复制指定的文本到剪贴板 3. 按钮会变绿色显示”已复制!“，2秒后恢复 4. 使用 quarto preview 命令运行，而不是直接打开HTML文件\n\n\n下拉框使用方法\n子下拉框：\n&lt;details class=\"subsection-dropdown\" open&gt;\n&lt;summary class=\"subsection-title\"&gt;子分类名称&lt;/summary&gt;\n&lt;div class=\"subsection-content\"&gt;\n\n- 列表项1\n- 列表项2\n\n&lt;/div&gt;\n&lt;/details&gt;\n主下拉框：\n&lt;details class=\"section-dropdown\" open&gt;\n&lt;summary class=\"section-title\"&gt;主分类名称&lt;/summary&gt;\n&lt;div class=\"section-content\"&gt;\n\n内容...\n\n&lt;/div&gt;\n&lt;/details&gt;"
+  },
+  {
+    "objectID": "resources/example-with-external-js.html",
+    "href": "resources/example-with-external-js.html",
+    "title": "Resources",
+    "section": "",
+    "text": "I list some useful websites and learning resources for academic research in management displine (IS or marketing focused)."
+  },
+  {
+    "objectID": "resources/example-with-external-js.html#文件结构说明",
+    "href": "resources/example-with-external-js.html#文件结构说明",
+    "title": "Resources",
+    "section": "文件结构说明",
+    "text": "文件结构说明\n你需要将以下3个文件放在同一个目录下：\nyour-project/\n├── example-with-dropdown.qmd      ← 这个文件\n├── styles-with-dropdown.css       ← CSS样式文件\n└── copy-function.js               ← JavaScript功能文件"
+  },
+  {
+    "objectID": "resources/example-with-external-js.html#使用说明",
+    "href": "resources/example-with-external-js.html#使用说明",
+    "title": "Resources",
+    "section": "使用说明",
+    "text": "使用说明\n\n运行命令\nquarto preview example-with-dropdown.qmd\n\n\n添加更多可复制内容\n::: {.copyable}\n显示的文本\n&lt;button class=\"copy-btn\" onclick=\"copyToClipboard(this, '要复制的内容')\"&gt;复制&lt;/button&gt;\n:::\n\n\n下拉框用法\n子下拉框：\n&lt;details class=\"subsection-dropdown\" open&gt;\n&lt;summary class=\"subsection-title\"&gt;标题&lt;/summary&gt;\n&lt;div class=\"subsection-content\"&gt;\n内容...\n&lt;/div&gt;\n&lt;/details&gt;"
+  },
+  {
+    "objectID": "resources/resources.html#文件结构说明",
+    "href": "resources/resources.html#文件结构说明",
+    "title": "Resources",
+    "section": "文件结构说明",
+    "text": "文件结构说明\n你需要将以下3个文件放在同一个目录下：\nyour-project/\n├── example-with-dropdown.qmd      ← 这个文件\n├── styles-with-dropdown.css       ← CSS样式文件\n└── copy-function.js               ← JavaScript功能文件"
+  },
+  {
+    "objectID": "resources/resources.html#使用说明",
+    "href": "resources/resources.html#使用说明",
+    "title": "Resources",
+    "section": "使用说明",
+    "text": "使用说明\n\n运行命令\nquarto preview example-with-dropdown.qmd\n\n\n添加更多可复制内容\n::: {.copyable}\n显示的文本\n&lt;button class=\"copy-btn\" onclick=\"copyToClipboard(this, '要复制的内容')\"&gt;复制&lt;/button&gt;\n:::\n\n\n下拉框用法\n子下拉框：\n&lt;details class=\"subsection-dropdown\" open&gt;\n&lt;summary class=\"subsection-title\"&gt;标题&lt;/summary&gt;\n&lt;div class=\"subsection-content\"&gt;\n内容...\n&lt;/div&gt;\n&lt;/details&gt;"
   }
 ]

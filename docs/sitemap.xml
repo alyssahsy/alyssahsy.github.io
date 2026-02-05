@@ -518,11 +518,11 @@
   </url>
   <url>
     <loc>https://alyssahsy.github.io/recreation/recreation.html</loc>
-    <lastmod>2026-02-02T01:40:39.928Z</lastmod>
+    <lastmod>2026-02-05T21:57:43.456Z</lastmod>
   </url>
   <url>
     <loc>https://alyssahsy.github.io/index.html</loc>
-    <lastmod>2026-02-02T02:09:17.581Z</lastmod>
+    <lastmod>2026-02-05T21:58:13.788Z</lastmod>
   </url>
   <url>
     <loc>https://alyssahsy.github.io/blog/blog.html</loc>
@@ -530,7 +530,7 @@
   </url>
   <url>
     <loc>https://alyssahsy.github.io/blog/blog_20260201_blogtest/index.html</loc>
-    <lastmod>2026-02-01T20:46:19.531Z</lastmod>
+    <lastmod>2026-02-02T01:40:39.867Z</lastmod>
   </url>
   <url>
     <loc>https://alyssahsy.github.io/blog/readnotes_20260201_notestest/index.html</loc>
@@ -547,5 +547,29 @@
   <url>
     <loc>https://alyssahsy.github.io/blog/technotes_20260201_qt_chinese/index.html</loc>
     <lastmod>2026-02-02T02:09:44.364Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alyssahsy.github.io/resources/resources.html</loc>
+    <lastmod>2026-02-05T21:56:46.406Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alyssahsy.github.io/resources/resources-dropdown.html</loc>
+    <lastmod>2026-02-05T19:40:26.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alyssahsy.github.io/resources/resources-with-toc.html</loc>
+    <lastmod>2026-02-05T19:51:20.326Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alyssahsy.github.io/resources/example-with-dropdown.html</loc>
+    <lastmod>2026-02-05T20:49:20.982Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alyssahsy.github.io/resources/example-with-dropdown-fixed.html</loc>
+    <lastmod>2026-02-05T20:52:10.368Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alyssahsy.github.io/resources/example-with-external-js.html</loc>
+    <lastmod>2026-02-05T20:54:44.084Z</lastmod>
   </url>
 </urlset>

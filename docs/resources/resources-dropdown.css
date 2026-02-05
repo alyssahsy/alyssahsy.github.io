@@ -1,0 +1,176 @@
+/* 整体页面样式 */
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.6;
+  color: #333;
+  font-size: 16px;
+}
+
+/* 介绍段落 */
+body > p:first-of-type {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2em;
+  line-height: 1.7;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-left: 3px solid #ddd;
+}
+
+/* 下拉框容器 */
+.section-dropdown {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* 下拉框标题 */
+.section-dropdown summary.section-title {
+  color: #2c3e50;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1em 1.5em;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  background: #fafafa;
+  transition: background-color 0.2s;
+  position: relative;
+}
+
+/* 隐藏默认的箭头 */
+.section-dropdown summary.section-title::-webkit-details-marker {
+  display: none;
+}
+
+/* 自定义箭头 */
+.section-dropdown summary.section-title::before {
+  content: "▸";
+  display: inline-block;
+  transition: transform 0.2s ease;
+  margin-right: 0.5em;
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* 展开时旋转箭头 */
+.section-dropdown[open] summary.section-title::before {
+  transform: rotate(90deg);
+}
+
+/* 鼠标悬停效果 */
+.section-dropdown summary.section-title:hover {
+  background: #f0f0f0;
+}
+
+/* 下拉内容区域 */
+.section-content {
+  padding: 1em 1.5em 1.5em 1.5em;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* 列表样式 */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 0.5em;
+}
+
+li {
+  margin-bottom: 0.6em;
+  padding-left: 1.5em;
+  position: relative;
+  font-size: 1rem;
+}
+
+li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #999;
+}
+
+/* 链接样式 */
+a {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* 目录样式 */
+#TOC {
+  background-color: white;
+  padding: 20px;
+  border-left: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+}
+
+#toc-title {
+  font-weight: 600;
+  margin-bottom: 1em;
+  color: #2c3e50;
+}
+
+.toc-actions {
+  margin-bottom: 1em;
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#TOC li {
+  margin-bottom: 0.5em;
+  padding-left: 0;
+}
+
+#TOC li:before {
+  content: none;
+}
+
+#TOC a {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+#TOC a:hover {
+  color: #3b82f6;
+}
+
+/* 激活的目录项 */
+#TOC .active {
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+  
+  #TOC {
+    display: none;
+  }
+  
+  .section-dropdown summary.section-title {
+    font-size: 1.2rem;
+    padding: 0.8em 1em;
+  }
+  
+  .section-content {
+    padding: 0.8em 1em;
+  }
+}

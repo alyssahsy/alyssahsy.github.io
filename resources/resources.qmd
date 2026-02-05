@@ -1,0 +1,110 @@
+---
+title: "Resources"
+format:
+  html:
+    css: resources.css
+    include-after-body: 
+      text: |
+        <script src="copy-function.js"></script>
+    toc: true
+    toc-location: right
+    toc-title: "Table of Contents"
+---
+
+<div class="intro">
+I list some useful websites and learning resources for academic research in management displine (IS or marketing focused).<br>
+(Content will be updated regularly.)
+</div>
+
+### Database and Journal Websites
+
+<details class="subsection-dropdown" open>
+<summary class="subsection-title">Databases</summary>
+<div class="subsection-content">
+
+- [Web of Science](https://www.webofscience.com/wos/alldb/basic-search)
+- [EBSCO](http://search.ebscohost.com/): Access to INFORMS, MIS Quarterly, AMJ, AMR article.
+- [Sage](https://journals.sagepub.com/): Access to Some TopMarketing Journals.
+- [SSRN](https://www.ssrn.com/)
+- [arXiv](https://arxiv.org/)
+- [JSTOR](https://www.jstor.org/)
+- [Sci-hub](https://tool.yovisun.com/scihub/)
+- [Ablesci](https://www.ablesci.com/): 科研通
+
+</div>
+</details>
+
+<details class="subsection-dropdown">
+<summary class="subsection-title">Journal Homepages - Latest Articles</summary>
+<div class="subsection-content">
+
+content to be added
+
+</div>
+</details>
+
+### Search Keywords: by Publication Sources
+
+<details class="subsection-dropdown">
+<summary class="subsection-title">General Top Journals</summary>
+<div class="subsection-content">
+
+::: {.copyable}
+- Click to copy: General Top Journals (Nature, Science, PNAS, Nature Human Behavior, etc.)
+<button class="copy-btn" onclick="copyToClipboard(this, 'NATURE or SCIENCE or NATURE COMMUNICATIONS or PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA or NATURE MEDICINE or NATURE HUMAN BEHAVIOUR OR NATURE MENTAL HEALTH OR NATURE MACHINE INTELLIGENCE OR NATURE COMPUTATIONAL SCIENCE')">Copy to Clipboard</button>
+:::
+
+</div>
+</details>
+
+<details class="subsection-dropdown">
+<summary class="subsection-title">UTD/FT Top Journals</summary>
+<div class="subsection-content">
+
+::: {.copyable}
+- Click to copy: Full list of UTD-FT Top Journals
+<button class="copy-btn" onclick="copyToClipboard(this, 'Academy of Management Journal OR Academy of Management Review OR Accounting, Organizations and Society OR Administrative Science Quarterly OR American Economic Review OR Contemporary Accounting Research OR Econometrica OR Entrepreneurship Theory and Practice OR Harvard Business Review OR Human Relations OR Human Resource Management OR Information Systems Research OR Journal of Accounting and Economics OR Journal of Accounting Research OR Journal of Applied Psychology OR Journal of Business Ethics OR Journal of Business Venturing OR Journal of Consumer Psychology OR Journal of Consumer Research OR Journal of Finance OR Journal of Financial and Quantitative Analysis OR Journal of Financial Economics OR Journal of International Business Studies OR Journal of Management OR Journal of Management Information Systems OR Journal of Management Studies OR Journal of Marketing OR Journal of Marketing Research OR Journal of Operations Management OR Journal of Political Economy OR Journal of the Academy of Marketing Science OR Management Science OR Manufacturing and Service Operations Management OR Marketing Science OR MIS Quarterly OR Operations Research OR Organization Science OR Organization Studies OR Organizational Behavior and Human Decision Processes OR Production and Operations Management OR Quarterly Journal of Economics OR Research Policy OR Review of Accounting Studies OR Review of Economic Studies OR Review of Finance OR Review of Financial Studies OR Sloan Management Review OR Strategic Entrepreneurship Journal OR Strategic Management Journal OR The Accounting Review OR INFORMS JOURNAL ON COMPUTING')">Copy to Clipboard</button>
+:::
+
+</div>
+</details>
+
+<details class="subsection-dropdown">
+<summary class="subsection-title">Marketing Top Journals</summary>
+<div class="subsection-content">
+
+::: {.copyable}
+- Click to copy: UTD-FT Top Marketing Journals
+<button class="copy-btn" onclick="copyToClipboard(this, 'JOURNAL OF MARKETING OR JOURNAL OF MARKETING RESEARCH OR MARKETING SCIENCE OR JOURNAL OF CONSUMER RESEARCH OR JOURNAL OF THE ACADEMY OF MARKETING SCIENCE')">Copy to Clipboard</button>
+:::
+
+</div>
+</details>
+
+<details class="subsection-dropdown">
+<summary class="subsection-title">IS Top Journals</summary>
+<div class="subsection-content">
+
+::: {.copyable}
+- click to copy: IS Top Journals (MISQ+ISR+JMIS+JAIS+MS)
+<button class="copy-btn" onclick="copyToClipboard(this, 'MIS QUARTERLY OR INFORMATION SYSTEMS RESEARCH OR JOURNAL OF THE ASSOCIATION FOR INFORMATION SYSTEMS OR JOURNAL OF MANAGEMENT INFORMATION SYSTEMS OR MANAGEMENT SCIENCE')">Copy to Clipboard</button>
+:::
+
+::: {.copyable}
+- click to copy: ABS 3+ Journals in INFO MAN field
+<button class="copy-btn" onclick="copyToClipboard(this, 'Information Systems Research OR Journal of the Association for Information Systems OR MIS Quarterly OR European Journal of Information Systems OR Information Systems Journal OR Journal of Information Technology OR Journal of Management Information Systems OR Journal of Strategic Information Systems OR Decision Support Systems OR Government Information Quarterly OR Information and Management OR Information and Organization OR Information Society OR Information Systems Frontiers OR Information Technology and People OR International Journal of Electronic Commerce OR Internet Research OR Journal of Computer-Mediated Communication OR Journal of the Association for Information Science and Technology')">Copy to Clipboard</button>
+:::
+</div>
+</details>
+
+### Resources
+
+<details class="subsection-dropdown">
+<summary class="subsection-title">Online Learning Resources</summary>
+<div class="subsection-content">
+
+content to be added
+
+</div>
+</details>
+---
