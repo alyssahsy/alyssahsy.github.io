@@ -22,14 +22,14 @@ I list some useful websites and learning resources for academic research in mana
 <summary class="subsection-title">Databases</summary>
 <div class="subsection-content">
 
-- [Web of Science](https://www.webofscience.com/wos/alldb/basic-search)
-- [EBSCO](http://search.ebscohost.com/): Access to INFORMS, MIS Quarterly, AMJ, AMR article.
-- [Sage](https://journals.sagepub.com/): Access to Some TopMarketing Journals.
-- [SSRN](https://www.ssrn.com/)
-- [arXiv](https://arxiv.org/)
-- [JSTOR](https://www.jstor.org/)
-- [Sci-hub](https://tool.yovisun.com/scihub/)
-- [Ablesci](https://www.ablesci.com/): 科研通
+- [Web of Science](https://www.webofscience.com/wos/alldb/basic-search){target="_blank"}
+- [EBSCO](http://search.ebscohost.com/){target="_blank"}: Access to INFORMS, MIS Quarterly, AMJ, AMR article.
+- [Sage](https://journals.sagepub.com/){target="_blank"}: Access to Some TopMarketing Journals.
+- [SSRN](https://www.ssrn.com/){target="_blank"}
+- [arXiv](https://arxiv.org/){target="_blank"}
+- [JSTOR](https://www.jstor.org/){target="_blank"}
+- [Sci-hub](https://tool.yovisun.com/scihub/){target="_blank"}
+- [Ablesci](https://www.ablesci.com/){target="_blank"}: 科研通
 
 </div>
 </details>
