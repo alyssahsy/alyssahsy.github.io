@@ -142,21 +142,27 @@ h2:first-of-type {
   background-color: #10b981;
 }
 
-/* 列表样式 */
-ul {
+/* 列表样式 - 只应用于内容区域的列表 */
+#quarto-content ul,
+.section-content ul,
+.subsection-content ul {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
 }
 
-li {
+#quarto-content li,
+.section-content li,
+.subsection-content li {
   margin-bottom: 0.6em;
   padding-left: 1.5em;
   position: relative;
   font-size: 1rem;  /* 16px - 列表项 */
 }
 
-li:before {
+#quarto-content li:before,
+.section-content li:before,
+.subsection-content li:before {
   content: "•";
   position: absolute;
   left: 0;
